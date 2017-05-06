@@ -17,7 +17,13 @@
         </activity>
         <activity android:name=".RegistroCarros" />
         <activity android:name=".ListarCarros" />
-        <activity android:name=".Reportes"></activity>
+        <activity android:name=".Reportes" />
+        <activity
+            android:name=".NoDeCarros"
+            android:label="@string/title_activity_no_de_carros"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Reporte1" />
+        <activity android:name=".Reporte2"></activity>
     </application>
 
 </manifest>

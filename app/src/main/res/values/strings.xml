@@ -27,13 +27,16 @@
     <string name="rojo">Rojo</string>
     <string name="blanco">Blanco</string>
     <string name="negro">Negro</string>
+    <string name="reporte1">No. De Carros Registrados</string>
+    <string name="num_de_carros">No. De Carros Registrados</string>
+    <string name="el_no_carros_es">Carros Registrados:</string>
     <string-array name="opciones">
         <item>@string/registrar_carros</item>
         <item>@string/listar_carros</item>
         <item>@string/reportes</item>
     </string-array>
     <string-array name="opciones_1">
-        <item>@string/marca</item>
+        <item>@string/mazda</item>
         <item>@string/renault</item>
         <item>@string/toyota</item>
         <item>@string/chevrolet</item>
@@ -51,4 +54,10 @@
         <item>@string/blanco</item>
         <item>@string/negro</item>
     </string-array>
+    <string-array name="opciones_4">
+        <item>@string/reporte1</item>
+    </string-array>
+    <string name="title_activity_no_de_carros">NoDeCarros</string>
+    <string name="reporte">Reporte</string>
+    <string name="calcular">Calcular</string>
 </resources>
