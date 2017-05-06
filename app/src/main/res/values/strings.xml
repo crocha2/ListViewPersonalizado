@@ -13,24 +13,20 @@
     <string name="borrar">Borrar</string>
     <string name="error_1">Digite la Placa</string>
     <string name="error_2">Digite el Precio</string>
-    <string name="mensaje">Carro Registrado</string>
-
+    <string name="mensaje_1">Carro Registrado</string>
     <string name="mazda">Mazda</string>
     <string name="toyota">Toyota</string>
     <string name="renault">Renault</string>
     <string name="chevrolet">Chevrolet</string>
-
     <string name="dosmildiez">2010</string>
     <string name="dosmilonce">2011</string>
     <string name="dosmildoce">2012</string>
     <string name="dosmiltrece">2013</string>
     <string name="dosmilcatorce">2014</string>
     <string name="dosmilquince">2015</string>
-
     <string name="rojo">Rojo</string>
     <string name="blanco">Blanco</string>
     <string name="negro">Negro</string>
-
     <string-array name="opciones">
         <item>@string/registrar_carros</item>
         <item>@string/listar_carros</item>
@@ -51,8 +47,8 @@
         <item>@string/dosmilquince</item>
     </string-array>
     <string-array name="opciones_3">
-        <item>@string/registrar_carros</item>
-        <item>@string/listar_carros</item>
-        <item>@string/reportes</item>
+        <item>@string/rojo</item>
+        <item>@string/blanco</item>
+        <item>@string/negro</item>
     </string-array>
 </resources>

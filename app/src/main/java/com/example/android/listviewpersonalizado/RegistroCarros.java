@@ -44,7 +44,7 @@ public class RegistroCarros extends AppCompatActivity {
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, opc2);
         comboModelo.setAdapter(adapter);
 
-        opc3 = this.getResources().getStringArray(R.array.opciones_1);
+        opc3 = this.getResources().getStringArray(R.array.opciones_3);
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, opc3);
         comboColor.setAdapter(adapter);
 
@@ -65,10 +65,10 @@ public class RegistroCarros extends AppCompatActivity {
             color = comboColor.getSelectedItem().toString();
 
             foto = String.valueOf(fotoAleatoria());
-            Carro p = new Carro(foto, placa, marca, modelo, color, precio);
-            p.guardar();
+            Carro c = new Carro(foto, placa, marca, modelo, color, precio);
+            c.guardar();
 
-            new AlertDialog.Builder(this).setMessage(res.getString(R.string.mensaje)).show();
+            //new AlertDialog.Builder(this).setMessage(res.getString(R.string.mensaje_1)).show();
 
             limpiar();
         }
