@@ -21,8 +21,8 @@ public class Reporte1 extends AppCompatActivity {
         setContentView(R.layout.activity_reporte1);
 
         reporte = (TextView)findViewById(R.id.txtReporte1);
-
         res = this.getResources();
+
     }
 
     public void reporte1(View v){

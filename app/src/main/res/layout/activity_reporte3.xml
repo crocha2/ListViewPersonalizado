@@ -7,63 +7,59 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.android.listviewpersonalizado.Reporte2">
+    tools:context="com.example.android.listviewpersonalizado.Reporte3">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:weightSum="1"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:onClick="reporte2">
+        android:weightSum="1">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/reporte"
-            android:id="@+id/textView6"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
+            android:id="@+id/textView10"
             android:textSize="24dp"
             android:textStyle="bold"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/txtReporte3" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/textView6"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="38dp"
-            android:id="@+id/txtReporte2"
-            android:layout_weight="0.03"
-            android:textStyle="italic"
-            android:textSize="20dp"
+            android:id="@+id/txtReporte3"
             android:layout_gravity="center_horizontal"
-            android:editable="false"
-            android:gravity="center" />
+            android:textSize="30dp"
+            android:layout_below="@+id/spinner"
+            android:layout_centerHorizontal="true" />
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView7"
+            android:id="@+id/textView9"
             android:layout_gravity="center_horizontal"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:layout_below="@+id/spinner"
+            android:layout_centerHorizontal="true" />
 
         <Spinner
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/cmbMarcas"
+            android:id="@+id/cmbCol"
             android:layout_gravity="center_horizontal"
-            android:layout_weight="0.03" />
+            android:layout_weight="0.04" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/calcular"
-            android:id="@+id/button4"
+            android:id="@+id/button5"
             android:layout_gravity="center_horizontal"
-            android:onClick="reporte2" />
+            android:onClick="reporte2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
     </LinearLayout>
+
 </RelativeLayout>

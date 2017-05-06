@@ -23,7 +23,8 @@
             android:label="@string/title_activity_no_de_carros"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Reporte1" />
-        <activity android:name=".Reporte2"></activity>
+        <activity android:name=".Reporte2" />
+        <activity android:name=".Reporte3"></activity>
     </application>
 
 </manifest>

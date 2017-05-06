@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ListViewPersonalizado</string>
+    <string name="blanco">White</string>
+    <string name="borrar">Clear</string>
+    <string name="calcular">Calculate</string>
+    <string name="chevrolet">Chevrolet</string>
+    <string name="color">Color</string>
+    <string name="dosmilcatorce">2014</string>
+    <string name="dosmildiez">2010</string>
+    <string name="dosmildoce">2012</string>
+    <string name="dosmilonce">2011</string>
+    <string name="dosmilquince">2015</string>
+    <string name="dosmiltrece">2013</string>
+    <string name="el_no_carros_color">Cars Registered</string>
+    <string name="el_no_carros_es">Registered cars</string>
+    <string name="el_no_carros_marca">CarsRegistered</string>
+    <string name="error_1">Type Plaque</string>
+    <string name="error_2">Type The Price</string>
+    <string name="es">is</string>
+    <string name="guardar">Save</string>
+    <string name="listar_carros">List Cars</string>
+    <string name="marca">Mark</string>
+    <string name="mazda">Mazda</string>
+    <string name="mensaje_1">Car Regitered</string>
+    <string name="modelo">Model</string>
+    <string name="negro">Black</string>
+    <string name="no_carros_por_color">Number of cars per Color Regitered</string>
+    <string name="no_carros_por_marca">Number of cars per Mark Registered</string>
+    <string name="num_de_carros">Number of cars Registered</string>
+    <string name="placa">License Plate</string>
+    <string name="precio">Price</string>
+    <string name="registrar_carros">Register Cars</string>
+    <string name="registro_de_carros">Cars Registration</string>
+    <string name="renault">Renault</string>
+    <string name="reporte">Report</string>
+    <string name="reporte1">Number of cars Registered</string>
+    <string name="reporte2">Number of cars per Mark Registered</string>
+    <string name="reporte3">Number od cars per Color Registered</string>
+    <string name="reportes">Reports</string>
+    <string name="rojo">Red</string>
+    <string name="title_activity_no_de_carros">NoCars</string>
+    <string name="toyota">Toyota</string>
+</resources>

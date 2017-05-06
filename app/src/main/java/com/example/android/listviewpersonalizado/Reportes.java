@@ -35,8 +35,15 @@ public class Reportes extends AppCompatActivity {
                     case 0:
                         i = new Intent(Reportes.this, Reporte1.class);
                         startActivity(i);
+                        break;
+                    case 1:
+                        i = new Intent(Reportes.this, Reporte2.class);
+                        startActivity(i);
+                        break;
+                    case 2:
+                        i = new Intent(Reportes.this, Reporte3.class);
+                        startActivity(i);
                 }
-
             }
         });
     }
