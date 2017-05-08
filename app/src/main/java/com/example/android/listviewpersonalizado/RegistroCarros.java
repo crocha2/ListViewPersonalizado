@@ -69,6 +69,7 @@ public class RegistroCarros extends AppCompatActivity {
             c.guardar();
 
             //new AlertDialog.Builder(this).setMessage(res.getString(R.string.mensaje_1)).show();
+            //Al enviar el "mensaje_1" me salia un error pero sin él, la aplicacion funciona perfectamente...
 
             limpiar();
         }

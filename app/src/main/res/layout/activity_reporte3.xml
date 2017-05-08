@@ -27,22 +27,32 @@
             android:layout_below="@+id/txtReporte3" />
 
         <TextView
+            android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/txtReporte3"
-            android:layout_gravity="center_horizontal"
-            android:textSize="30dp"
             android:layout_below="@+id/spinner"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:id="@+id/txtReporte3"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView9"
-            android:layout_gravity="center_horizontal"
-            android:textSize="30dp"
             android:layout_below="@+id/spinner"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp" />
 
         <Spinner
             android:layout_width="wrap_content"
@@ -52,14 +62,14 @@
             android:layout_weight="0.04" />
 
         <Button
+            android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/calcular"
-            android:id="@+id/button5"
-            android:layout_gravity="center_horizontal"
-            android:onClick="reporte2"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:onClick="reporte3"
+            android:text="@string/calcular" />
     </LinearLayout>
 
 </RelativeLayout>

@@ -34,7 +34,7 @@ public class Reporte3 extends AppCompatActivity {
         comboCol.setAdapter(adapter);
     }
 
-    public void reporte2(View v){
+    public void reporte3(View v){
         String color = "";
         int cont = 0;
 

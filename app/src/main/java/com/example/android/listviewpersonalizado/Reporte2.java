@@ -16,7 +16,7 @@ public class Reporte2 extends AppCompatActivity {
     private String aux;
     private Resources res;
     private ArrayList<Carro> carros;
-    private Spinner comboMarca;
+    private Spinner comboMar;
     private String[] opc1;
     private ArrayAdapter<String> adapter;
 
@@ -26,12 +26,12 @@ public class Reporte2 extends AppCompatActivity {
         setContentView(R.layout.activity_reporte2);
 
         reporte = (TextView)findViewById(R.id.txtReporte2);
-        comboMarca = (Spinner)findViewById(R.id.cmbMarcas);
+        comboMar = (Spinner)findViewById(R.id.cmbMarcas);
         res = this.getResources();
 
         opc1 = this.getResources().getStringArray(R.array.opciones_1);
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, opc1);
-        comboMarca.setAdapter(adapter);
+        comboMar.setAdapter(adapter);
 
     }
 
@@ -40,10 +40,10 @@ public class Reporte2 extends AppCompatActivity {
         int cont = 0;
 
         carros = Datos.getCarros();
-        marca = comboMarca.getSelectedItem().toString();
+        marca = comboMar.getSelectedItem().toString();
 
         for (int i = 0; i < carros.size() ; i++) {
-            if(marca == carros.get(i).getMarca()) {
+            if(carros.get(i).getMarca() == marca) {
                 cont = cont + 1;
             }else{
                 i++;

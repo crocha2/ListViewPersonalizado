@@ -26,7 +26,7 @@ public class Reporte1 extends AppCompatActivity {
     }
 
     public void reporte1(View v){
-        String aux2="";
+        //String aux2="";
         int cont = 0;
 
         carros = Datos.getCarros();

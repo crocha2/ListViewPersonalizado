@@ -14,6 +14,7 @@
     <string name="error_1">Digite la Placa</string>
     <string name="error_2">Digite el Precio</string>
     <string name="mensaje_1">Carro Registrado</string>
+    <string name="mensaje_registro">Carro Registrado</string>
     <string name="mazda">Mazda</string>
     <string name="toyota">Toyota</string>
     <string name="renault">Renault</string>
