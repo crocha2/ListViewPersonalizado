@@ -26,7 +26,7 @@ public class Reporte2 extends AppCompatActivity {
         setContentView(R.layout.activity_reporte2);
 
         reporte = (TextView)findViewById(R.id.txtReporte2);
-        comboMar = (Spinner)findViewById(R.id.cmbMarcas);
+        comboMar = (Spinner)findViewById(R.id.cmbMar);
         res = this.getResources();
 
         opc1 = this.getResources().getStringArray(R.array.opciones_1);
@@ -39,11 +39,11 @@ public class Reporte2 extends AppCompatActivity {
         String marca = "";
         int cont = 0;
 
-        carros = Datos.getCarros();
         marca = comboMar.getSelectedItem().toString();
+        carros = Datos.getCarros();
 
         for (int i = 0; i < carros.size() ; i++) {
-            if(carros.get(i).getMarca() == marca) {
+            if(carros.get(i).getMarca().toString() == marca) {
                 cont = cont + 1;
             }else{
                 i++;
